@@ -27,12 +27,12 @@
     top: 0px;
 }
 .navbar a {
-    float: left; /* Make sure that the links stay side-by-side */
-    display: block; /* Change the display to block, for responsive reasons (see below) */
-    color: black; /* White text color */
-    text-align: center; /* Center the text */
-    padding: 14px 20px; /* Add some padding */
-    text-decoration: none; /* Remove underline */
+    float: left; 
+    display: block; 
+    color: black; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none; 
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -56,18 +56,18 @@
 .side 
 {   
 
-    flex: 30%; /* Set the width of the sidebar */
-    background-image: url(https://i.pinimg.com/originals/80/e1/86/80e1866b3efd98103ee30c14cbbfcbe2.jpg); /* Grey background color */
-    padding: 20px; /* Some padding */
+    flex: 30%; 
+    background-image: url(https://i.pinimg.com/originals/80/e1/86/80e1866b3efd98103ee30c14cbbfcbe2.jpg);
+    padding: 20px;
 }
 
 .main 
 {   
-    flex: 70%; /* Set the width of the main content */
+    flex: 70%; 
     background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-White-Pattern-Background-Image.jpg);
    
     background-size: cover;
-    padding: 20px; /* Some padding */
+    padding: 20px; 
     
 }
 
@@ -75,14 +75,14 @@
   margin-top: 7%;
 }
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 700px) {
     .row {
       flex-direction: column;
     }
   }
   
-  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+ 
   @media screen and (max-width: 400px) {
     .navbar a {
       float: none;
@@ -90,9 +90,9 @@
     }
   }
   .footer {
-    padding: 20px; /* Some padding */
-    text-align: center; /* Center text*/
-    background: #ddd; /* Grey background */
+    padding: 20px;
+    text-align: center; 
+    background: #ddd; 
   }
 
   .profile

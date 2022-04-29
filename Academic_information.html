@@ -13,7 +13,7 @@
 
         .header {
             padding: 5px;
-            /* some padding */
+
             text-align: center;
             background-image: url(https://th.bing.com/th/id/OIP.wNAbqT15K0SJVS5838xPWgHaD4?w=327&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7);
             opacity: 0.8;
@@ -22,7 +22,7 @@
             font-family: arial;
             font-size: 50px;
             color: black;
-            /* white text color */
+
         }
 
 
@@ -36,17 +36,17 @@
 
         .navbar a {
             float: left;
-            /* Make sure that the links stay side-by-side */
+
             display: block;
-            /* Change the display to block, for responsive reasons (see below) */
+
             color: black;
-            /* White text color */
+
             text-align: center;
-            /* Center the text */
+
             padding: 14px 20px;
-            /* Add some padding */
+
             text-decoration: none;
-            /* Remove underline */
+
 
         }
 
@@ -68,11 +68,11 @@
         .footer {
 
             padding: 20px;
-            /* Some padding */
+
             text-align: center;
-            /* Center text*/
+
             background: #ddd;
-            /* Grey background */
+
             font-family: arial;
         }
 
@@ -84,6 +84,20 @@
         .main h2 {
             font-size: 60px;
             color: black
+        }
+
+        @media screen and (max-width: 700px) {
+            .main {
+                flex-direction: column;
+            }
+        }
+
+
+        @media screen and (max-width: 400px) {
+            .navbar a {
+                float: none;
+                width: 100%;
+            }
         }
     </style>
 
@@ -101,21 +115,22 @@
     </div>
 
     <div class="navbar">
-        <nav> 
+        <nav>
             <h4>
-            <a href="index.html" target="_blank">MAIN PAGE</a>
-            <a href="Other_Achievements.html" target="_blank" >OTHER ACHIEVEMENTS</a>
-            <a href="gallery.html" target=""_blank>GALLERY</a>
-            <a href="https://www.linkedin.com/in/abhishek-tiwari-5608b21a3" target="_blank">
-                <img src="linkedin.png" width="25">
-            </a>
-            <a href="https://www.facebook.com/profile.php?id=100036010306556" target="_blank">
-               
+                <a href="index.html" target="_blank">MAIN PAGE</a>
+                <a href="Other_Achievements.html" target="_blank">OTHER ACHIEVEMENTS</a>
+                <a href="gallery.html" target="" _blank>GALLERY</a>
+                <a href="https://www.linkedin.com/in/abhishek-tiwari-5608b21a3" target="_blank">
+                    <img src="linkedin.png" width="25">
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100036010306556" target="_blank">
+
                     <img src="https://cdn-icons-png.flaticon.com/128/733/733547.png" width="25">
-               
-            </a>
-            <a href="https://www.instagram.com/abhishek_tiwari521/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" width="25px"></a>
-        </h4>
+
+                </a>
+                <a href="https://www.instagram.com/abhishek_tiwari521/" target="_blank"><img
+                        src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" width="25px"></a>
+            </h4>
         </nav>
 
     </div>
@@ -132,7 +147,7 @@
     </div>
 
     <div class="footer">
-     </div>
+    </div>
 </body>
 
 </html>
